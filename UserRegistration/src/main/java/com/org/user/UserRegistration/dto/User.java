@@ -23,7 +23,7 @@ public class User {
 	private String password;
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", username=" + username + ", email=" + email + ", password=" + password + "]";
+		return "User\n {\n id: " + id + ", \n username: " + username + ",\n email: " + email + ",\n password: " + password + "\n}";
 	}
 	public int getId() {
 		return id;
